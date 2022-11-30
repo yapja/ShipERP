@@ -101,8 +101,6 @@
 <script type="text/javascript">
 
 $(function(){
-    const isValidUrl = urlString=> {
-	
     $.ajaxSetup({
         headers: {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
